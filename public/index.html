@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#ae8f3d" />
+  <meta property="og:url" content="http://report.niso.com.vn:3000/" />
+  <meta property="og:image" content="%PUBLIC_URL%/favicon.ico" />
+  <meta name="description" content="Wellcome to Report Niso by IT team" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+    const originalConsoleLog = console.log;
+    console.log = () => { };
+  </script>
+  <script>
+    window.onload = function () {
+      console.log = originalConsoleLog;
+    };
+    console.info("%c NISO Activity %c WEB BY QUÝ https://github.com/dangngocquy/", "font-weight: bold; font-size: 3em; color: #ae8f3d; text-shadow: 3px 3px 0 white , 6px 6px 0 #8a6a16 , 9px 9px 0 #8a6a16, 12px 12px 0 #ae8f3d;", "font-weight: bold; font-size: 1.5em; color: black;");
+  </script>
+</body>
+
+</html>

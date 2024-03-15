@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  font-family: DM Sans, sans-serif;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+p,
+b,
+ul,
+tspan,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  color: #28304c;
+}
+
+a {
+  text-decoration: none;
+  color: #28304c;
+}
+
+input:focus {
+  outline-width: 0;
+}
+
+body {
+  margin: 0;
+}
